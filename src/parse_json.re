@@ -1,4 +1,4 @@
-/* Decoding a fixed JSON data structure using Json.Decode */
+/* Decoding a fixed JSON data structure using Json.Decode
 let mapJsonObjectString = (f, decoder, encoder: int => Js.Json.t, str) => {
   let json = Json.parseOrRaise(str);
   Json.Decode.(dict(decoder, json))
@@ -31,4 +31,4 @@ mapJsonObjectString(
   | x => Js.log(x)
   | exception (Json.Decode.DecodeError(msg)) => Js.log("Error:" ++ msg)
   };
-};
+}; */

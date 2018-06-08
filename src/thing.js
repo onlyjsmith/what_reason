@@ -2,9 +2,9 @@
 'use strict';
 
 
-var x = ('well-typed');
+var x = ( 'well-typed' );
 
-console.log(x + " back in reason land");
+console.log(x + " back in reason land!");
 
 exports.x = x;
 /* x Not a pure module */
